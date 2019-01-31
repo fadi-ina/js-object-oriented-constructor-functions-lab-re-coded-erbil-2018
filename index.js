@@ -1,30 +1,16 @@
-'use strict';
-
-function Dog(name, breed, age){
-  this.name = name
-  this.breed= breed
-  this.age = age
+function Scooter(year, color, model){
+  this.year = year;
+  this.color = color;
+  this.model = model
 }
 
-function Cat(name, breed, age){
-  this.name = name
-  this.breed= breed
-  this.age = age
+function Driver(name, age, experience){
+  this.name = name;
+  this.age = age;
+  this.experience = experience;
 }
 
-function Ferret(name, age, foodRequirements){
-  this.name = name
-  this.age = age
-  this.foodRequirements = foodRequirements
-}
-
-function Bird(name, breed){
-  this.name = name
-  this.breed = breed
-}
-
-function Fish(name, species, waterConditions){
-  this.name = name
-  this.species = species
-  this.waterConditions = waterConditions
+function PickupLocation(address, city){
+  this.address = address;
+  this.city = city;
 }
